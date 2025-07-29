@@ -1,9 +1,10 @@
-import './App.css'
+import Body from './components/Body';
+import React from 'react';
 
 function App() {
   return (
     <>
-      <h1 className='text-3xl font-bold'>Hello Honey bunny</h1>
+      <Body/>
     </>
   )
 }
